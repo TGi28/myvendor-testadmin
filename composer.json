@@ -2,7 +2,7 @@
     "name": "myvendor/testadmin",
     "description": "My first test laravel package",
     "type": "library",
-    "stability": "stable",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "MyVendor\\TestAdmin\\": "src/"
