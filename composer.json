@@ -1,0 +1,26 @@
+{
+    "name": "myvendor/testadmin",
+    "description": "My first test laravel package",
+    "type": "composer-plagin",
+    "license": "MIT",
+    "minimum-stability": "beta",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\TestAdmin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MyVendor\\TestAdmin\\TestAdminServiceProvider"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/MyVendor/TestAdmin"    
+        }
+    ]
+}
