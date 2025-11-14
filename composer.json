@@ -1,8 +1,7 @@
 {
     "name": "myvendor/testadmin",
     "description": "My first test laravel package",
-    "type": "library",
-    "minimum-stability": "stable",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "MyVendor\\TestAdmin\\": "src/"
@@ -14,5 +13,6 @@
                 "MyVendor\\TestAdmin\\TestAdminServiceProvider"
             ]
         }
-    }
+    },
+    "version": "1.0.1"
 }
